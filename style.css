@@ -1,0 +1,172 @@
+#botonCopiado{
+    display: none;
+}
+
+#textoDesencriptado{
+    display: none;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #A9E2F3;
+}
+
+.logo{
+    margin-left: 95px;
+    padding: 5px;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+    background-color: #A9E2F3;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: #072B61;
+}
+
+section{
+    height: 100%;
+    background-color: #A9F5F2;
+    border-radius: 20px;
+    display:flexbox;
+}
+
+.seccion1{
+    width: 60%;
+    margin-left: 20px;
+}
+
+.seccion2{
+    width: 30%;
+    margin-right: 20px;
+}
+
+.contenedor_muñeco{
+    width: 100%;
+    height: 60%;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.contenedor_subtitulo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedor_parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    margin-top: 45%;
+    display: flexbox;
+}
+
+.contenedortexto{
+    width: 60%;
+    height: 60%;
+    resize: none;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 30px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+}
+
+.entradatexto{
+    width: 100%;
+    height: 90%;
+    resize: none;
+    display:block;
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+
+.alerta{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cajabotones{
+    text-align: center;
+    margin-top: auto;
+}
+
+.btn-encriptar, .btn-desencriptar{
+    width: auto;
+    height: auto;
+    border-radius: 6px;
+    border: 0;
+    display: flexbox;
+    padding: 3%;
+}
+
+.btn-encriptar{
+    background-color: #0A3871;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-desencriptar{
+    background-color: #0A3871;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover{
+    background-color: grey;
+    color: black;
+}
+
+.btn-desencriptar:hover{
+    background-color: grey;
+    color: black;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.cajatexto{
+    width: 80%;
+    height: 90%;
+    margin-left: 5%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+}
+
+.muñeco_buscar{
+    width: 70%;
+    height: 80%;
+}
+
+.boton_copiar{
+    margin-left: 10%;
+    width:auto;
+    background-color: #0A3871;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    display: flex;
+}
